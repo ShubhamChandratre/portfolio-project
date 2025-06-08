@@ -1,2 +1,2 @@
 ## Portfolio Website Template 
-### Made Using TS
+### Made Using TypeScript
