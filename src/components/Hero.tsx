@@ -76,7 +76,7 @@ const Hero: React.FC = () => {
               <div className="absolute inset-4 rounded-full overflow-hidden bg-blue-600 bg-opacity-10 backdrop-blur-sm flex items-center justify-center">
                 <div className="absolute top-0 left-0 right-0 bottom-0 rounded-full overflow-hidden">
                   <img 
-                    src="/public/Profilephoto2.png" 
+                    src="/Profilephoto2.png" 
                     alt="Developer Portrait" 
                     className="w-full h-full object-cover"
                   />
