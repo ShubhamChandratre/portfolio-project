@@ -7,7 +7,7 @@ const Hero: React.FC = () => {
       id="home" 
       className="min-h-screen flex items-center pt-16 bg-gradient-to-br from-slate-50 to-slate-100"
     >
-      <div className="container mx-auto px-6 py-12">
+      <div className="container max-w-[1300px] mx-auto px-6 py-12">
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="md:w-1/2 mb-12 md:mb-0">
             <p className="text-blue-600 font-medium mb-4 tracking-wide animate-fadeIn">
@@ -25,6 +25,9 @@ const Hero: React.FC = () => {
             </p>
             <p className="text-slate-600 text-lg mb-8 leading-relaxed max-w-lg animate-slideUp animation-delay-100">
               I build modern web applications with a focus on performance, accessibility, and beautiful design. Let's turn ideas into reality.
+            </p>
+            <p className="text-slate-600 text-lg mb-8 leading-relaxed max-w-lg animate-slideUp animation-delay-100">
+              Proficiency in Software Development, Cloud Computing, DevOps and AI/ML.
             </p>
             
             <div className="flex space-x-4 mb-8 animate-slideUp animation-delay-200">
