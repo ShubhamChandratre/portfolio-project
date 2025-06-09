@@ -31,7 +31,7 @@ export const projects: Project[] = [
   {
     id: 4,
     title: 'TravelPlanner-AI',
-    description: 'An AI-powered travel planner that generates personalized itineraries, offers real-time suggestions, and integrates chatbot for seamless trip planning',
+    description: 'An AI-powered travel planner that generates personalized itineraries, offers real-time suggestions, and integrates chatbot for seamless trip planning.',
     imageUrl: '/travel.png',
     liveUrl: '#',
     githubUrl: 'https://github.com/ShubhamChandratre/TravelPlanner-AI.git',
@@ -49,7 +49,7 @@ export const projects: Project[] = [
   {
     id: 6,
     title: 'Credit Card Fraud Detection',
-    description: 'Machine learning model Logistic Regression to detect fraudulent credit card transactions and visualization ',
+    description: 'Machine learning model Logistic Regression to detect fraudulent credit card transactions and charts for data visualization.',
     imageUrl: '/ccfd.png',
     liveUrl: '#',
     githubUrl: 'https://github.com/ShubhamChandratre/Credit-Card-Fraud-Detection.git',

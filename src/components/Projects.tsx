@@ -29,7 +29,7 @@ const Projects: React.FC = () => {
         </div>
         
         {/* Filter Controls */}
-        <div className="mb-10 flex flex-wrap justify-center gap-2">
+        <div className="mb-10 flex flex-wrap justify-center gap-2 w-[1200px] mx-auto">
           <button
             onClick={() => setFilter('all')}
             className={`px-4 py-2 text-sm rounded-full transition-colors ${
@@ -56,7 +56,7 @@ const Projects: React.FC = () => {
         </div>
         
         {/* Projects Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-3">
           {filteredProjects.map(project => (
             <ProjectCard key={project.id} project={project} />
           ))}
